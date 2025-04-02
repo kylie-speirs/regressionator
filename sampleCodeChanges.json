@@ -1,0 +1,4 @@
+{
+    "text": "Enhance daily giveaway draw process to support multiple winners and prize fulfillment tracking. UI - Add ability to configure number of winners per giveaway. Backend - Ensure prize fulfillment events and payout transactions are created for each winner.",
+    "changes": "pkg/rewards/giveaway/draw_execution.go\n-45 +132\nM\n\npkg/rewards/giveaway/draw_config.go\n-12 +48\nM\n\npkg/rewards/giveaway/draw_winner_selector.go\n-33 +87\nM\n\npkg/rewards/giveaway/models/giveaway_winner.go\n-0 +22\nA\n\npkg/rewards/giveaway/prize_fulfillment.go\n-10 +39\nM\n\npkg/rewards/giveaway/testing/multi_winner_draw_config.json\n-0 +150\nA\n\npkg/rewards/giveaway/testing/draw_execution_integration_test.go\n-4 +60\nM\n\npkg/web/admin/giveaway_draw_ui.tsx\n-21 +78\nM\n\npkg/web/admin/testing/ui_multi_winner_draw.json\n-0 +105\nA"
+}
