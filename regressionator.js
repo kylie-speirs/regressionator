@@ -56,7 +56,7 @@ async function main() {
             await readFile(new URL('./sampleTestCases.json', import.meta.url))
         );
         const sampleCodeChanges = JSON.parse(
-            await readFile(new URL('./sampleCodeChanges.json', import.meta.url))
+            await readFile(new URL('./sampleCodeChangesLogin.json', import.meta.url))
         );
 
         const analysis = await analyzeRegressionTests(sampleTestCases, sampleCodeChanges);
