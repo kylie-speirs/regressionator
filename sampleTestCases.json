@@ -76,7 +76,7 @@
     },
     {
         "id": "16",
-        "testName": "1. Upcoming tickets page does not display the customer tickets where the draw has been finalised",
+        "testName": "Upcoming tickets page does not display the customer tickets where the draw has been finalised",
         "steps": "1. Login with a valid customer and purchase a standard ticket\n2. Navigate to the upcoming tickets page\n3. Ticket will be displayed.\n4. Run the end of draw for the ticket purchased.\n5. Navigate to the Upcoming tickets page\n6. The ticket will no longer be listed"
     }
 ]
