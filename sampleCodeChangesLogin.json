@@ -1,0 +1,4 @@
+{
+    "text": "Update customer login validation UI - Update login for page. Backend - Update login validation process",
+    "changes": "pkg/customer/login.go\n-45 +132\npkg/source/customer/login.go\npkg/source/login/authenticate.go"
+}

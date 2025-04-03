@@ -1,0 +1,4 @@
+{
+    "text": "Update Daily Winners UI - Update Daily Winners Giveaway page Backend - Change Daily Winners draw process to correctly identify the correct winner",
+    "changes": "pkg/draw/giveaway/dailyWinners.go\n-45 +132\npkg/source/giveaway/DailyWinners.go\nsource/draw/giveaway/publish.go"
+}

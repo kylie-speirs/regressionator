@@ -48,5 +48,27 @@
         "id": "10",
         "testName": "Manual Fulfillment of Missed Prize",
         "steps": "1. Identify a customer whose prize payout failed due to technical issues\n2. In admin, navigate to the Lottery -> Prize Fulfillment\n3. Manually trigger the Fulfil prize action for the customer\n4. Confirm transaction is created and balance is updated\n5. Verify the customer's prize status is set to fulfilled"
+    },
+    {
+        "id": "11",
+        "testName": "Verify successful customer login",
+        "steps": "Load ui interface\n2. Enter the username of a valid customer\n 3. Enter the password for a valid customer.\nCustomer login is successful"
+    },
+    {
+        "id": "12",
+        "testName": "Verify customer login fails with invalid password",
+        "steps": "Load ui interface\n2. Enter username for a valid customer\n3. Enter an invalid password for the customer\n4.Login will fail"
+    
+    },
+    {
+        "id": "13",
+        "testName": "EOD will run successfully",
+        "steps": "Load admin draw page\n2. Click on the draw to be ended\n3. Click end of draw tools\n4. Run each end of draw command\n5. Draw will be ended successfully\n6. Draw winners will be paid out the correct dividend amount"
+    },
+    {
+        "id": "14",
+        "testName": "Draw winner is paid out successfully",
+        "steps": "Create a customer and purchase a ticket that will win a prize\n2. Run the end of draw for the purchased ticket\n3. Login to web for the customer\n4. Check the Drawn tickets and ensure that the ticket is displayed as being a winning ticket\n5. Check the customer account balance contains the correct dividend\n6. Load withdraw funds page and ensure the funds added are withdrawable"
     }
+
 ]

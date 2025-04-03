@@ -1,0 +1,4 @@
+{
+    "text": "Update the End of Draw process UI - Update draw end of draw tools page. Backend - Fix end of draw function",
+    "changes": "pkg/draw/view.go\n-45 +132\nsource/draw/endOfDrawTools.go\nsource/draw/processEndOfDraw.go"
+}
