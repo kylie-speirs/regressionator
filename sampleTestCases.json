@@ -58,7 +58,6 @@
         "id": "12",
         "testName": "Verify customer login fails with invalid password",
         "steps": "Load ui interface\n2. Enter username for a valid customer\n3. Enter an invalid password for the customer\n4.Login will fail"
-    
     },
     {
         "id": "13",
